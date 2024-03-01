@@ -1,0 +1,22 @@
+{
+    "serverName": "OPC Server",
+    "serverAddress": "localhost",
+    "serverPort": 4840,
+    "nodes": [
+        {
+            "nodeId": "ns=2;s=Temperature",
+            "dataType": "Int32",
+            "value": 25
+        },
+        {
+            "nodeId": "ns=2;s=Pressure",
+            "dataType": "Int32",
+            "value": 10
+        },
+        {
+            "nodeId": "ns=2;s=Level",
+            "dataType": "Int32",
+            "value": 3
+        }
+    ]
+}
